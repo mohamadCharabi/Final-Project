@@ -2,7 +2,7 @@
 
 ## What data will be collected and why
 
-This project tracks bedroom environmental conditions overnight — specifically temperature, humidity, noise level, and light exposure — and uses that data to generate a nightly sleep quality score. These are the factors that most directly affect how well you sleep, but almost no one actually measures them.
+This project tracks bedroom environmental conditions overnight  specifically temperature, humidity, noise level, and light exposure  and uses that data to generate a nightly sleep quality score. These are the factors that most directly affect how well you sleep, but almost no one actually measures them.
 
 The sensor will sample every 30 seconds throughout the night and send each reading to a cloud backend. Over time, the dashboard builds up a history so you can see patterns across days and weeks.
 
@@ -12,7 +12,7 @@ The sensor unit is built around an ESP32, which is essentially an Arduino with b
 
 ## What the end user sees
 
-The dashboard has two main views. The first is a nightly summary — a timeline of temperature, noise, and light across the night, an estimated lights-out and wake time based on the light sensor, and a sleep quality score from 0 to 100 calculated from how well the room conditions held up through the night. The second is a weekly trends view showing how scores have changed day to day along with averages for temperature and noise.
+The dashboard has two main views. The first is a nightly summary a timeline of temperature, noise, and light across the night, an estimated lights-out and wake time based on the light sensor, and a sleep quality score from 0 to 100 calculated from how well the room conditions held up through the night. The second is a weekly trends view showing how scores have changed day to day along with averages for temperature and noise.
 
 ## Basic goals
 
